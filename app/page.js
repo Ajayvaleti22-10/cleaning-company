@@ -361,12 +361,12 @@ export default function HomePage() {
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <Link href="/book">
-                <Button size="lg" className="bg-gradient-to-r from-orange-500 to-pink-500 hover:from-orange-600 hover:to-pink-600 text-white font-semibold text-base px-8 h-13 shadow-xl shadow-orange-500/30">
+                <Button size="lg" className="bg-gradient-to-r from-orange-500 to-pink-500 hover:from-orange-600 hover:to-pink-600 text-white font-semibold text-base px-8 h-14 min-h-[3.25rem] shadow-xl shadow-orange-500/30">
                   Book Your Cleaning <ArrowRight className="w-5 h-5 ml-2" />
                 </Button>
               </Link>
               <Link href="/quote">
-                <Button size="lg" variant="outline" className="border-white/30 text-white hover:bg-white/10 font-semibold text-base px-8 h-13">
+                <Button size="lg" className="bg-transparent border-2 border-white text-white hover:bg-white/15 font-semibold text-base px-8 h-14 min-h-[3.25rem]">
                   Get a Free Quote
                 </Button>
               </Link>
