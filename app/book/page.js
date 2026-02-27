@@ -124,7 +124,7 @@ export default function BookPage() {
   const handleSubmit = async () => {
     if (form._honey) return
 
-    if (!WEB3FORMS_KEY || WEB3FORMS_KEY === 'your_web3forms_key_here') {
+    if (!WEB3FORMS_KEY || WEB3FORMS_KEY === 'your_web3forms_access_key_here') {
       toast.error('Booking form is not configured. Please try again later.')
       return
     }

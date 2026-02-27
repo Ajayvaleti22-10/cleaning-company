@@ -9,7 +9,7 @@ import { Badge } from '@/components/ui/badge'
 import { toast } from 'sonner'
 import { Star, MapPin, Loader2, Send, MessageSquarePlus } from 'lucide-react'
 
-const WEB3FORMS_KEY = process.env.NEXT_PUBLIC_WEB3FORMS_KEY || 'your_web3forms_key_here'
+const WEB3FORMS_KEY = process.env.NEXT_PUBLIC_WEB3FORMS_KEY || ''
 
 const staticReviews = [
   { id: '1', rating: 5, comment: 'Absolutely incredible attention to detail! My apartment has never looked this clean. The team was professional, on time, and so thorough. Will definitely be booking again!', displayName: 'Sarah M.', location: 'Downtown', date: 'May 10, 2025' },
@@ -32,6 +32,10 @@ export default function ReviewsPage() {
     e.preventDefault()
     if (form._honey) return
     if (!form.comment || !form.displayName) { toast.error('Please fill in all required fields.'); return }
+    if (!WEB3FORMS_KEY || WEB3FORMS_KEY === 'your_web3forms_access_key_here') {
+      toast.error('Review form is not configured. Please try again later.')
+      return
+    }
     setSubmitting(true)
     try {
       await fetch('https://api.web3forms.com/submit', {
