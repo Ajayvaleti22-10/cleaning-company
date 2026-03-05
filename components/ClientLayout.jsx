@@ -169,7 +169,7 @@ export default function ClientLayout({ children }) {
               <h4 className="font-semibold mb-4">Contact Info</h4>
               <div className="flex flex-col gap-3 text-sm text-slate-400">
                 <div className="flex items-center gap-2" suppressHydrationWarning><Phone className="w-4 h-4 text-teal-400" /><a href="tel:+14255507241" className="hover:text-teal-400">425-550-7241</a></div>
-                <div className="flex items-center gap-2" suppressHydrationWarning><Mail className="w-4 h-4 text-teal-400" /><a href="mailto:vianneymuhoza13@gmail.com" className="hover:text-teal-400">vianneymuhoza13@gmail.com</a></div>
+                <div className="flex items-center gap-2" suppressHydrationWarning><Mail className="w-4 h-4 text-teal-400" /><a href="mailto:info@sparkrightcleaning.com" className="hover:text-teal-400">info@sparkrightcleaning.com</a></div>
                 <div className="flex items-center gap-2" suppressHydrationWarning><MapPin className="w-4 h-4 text-teal-400" /><span>Serving Cedar Rapids & Surrounding Areas</span></div>
               </div>
             </div>

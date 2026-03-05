@@ -32,7 +32,7 @@ export default function AdminPage() {
           <div className="space-y-3">
             <div className="flex items-center justify-center gap-2 text-sm text-slate-500">
               <Mail className="w-4 h-4 text-teal-500" />
-              <span>vianneymuhoza13@gmail.com</span>
+              <span>info@sparkrightcleaning.com</span>
             </div>
             <div className="flex items-center justify-center gap-2 text-sm text-slate-500">
               <Phone className="w-4 h-4 text-teal-500" />

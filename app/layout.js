@@ -36,7 +36,7 @@ export default function RootLayout({ children }) {
               name: 'Sparkright Cleaning',
               description: 'Professional steam cleaning and sanitizing. Deep cleaning, move-out, interior car deep cleaning.',
               telephone: '425-550-7241',
-              email: 'vianneymuhoza13@gmail.com',
+              email: 'info@sparkrightcleaning.com',
               address: { '@type': 'PostalAddress', addressLocality: 'Cedar Rapids', addressRegion: 'IA' },
               priceRange: '$$',
               aggregateRating: { '@type': 'AggregateRating', ratingValue: '4.9', reviewCount: '500' },

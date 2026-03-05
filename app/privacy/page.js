@@ -32,10 +32,10 @@ export default function PrivacyPage() {
           <p className="text-slate-600 mb-6 leading-relaxed">Our website may use cookies to enhance your experience. You can choose to disable cookies through your browser settings.</p>
 
           <h2 className="text-2xl font-bold text-slate-800 mb-4">6. Your Rights</h2>
-          <p className="text-slate-600 mb-6 leading-relaxed">You have the right to access, correct, or delete your personal information. Contact us at vianneymuhoza13@gmail.com to exercise these rights.</p>
+          <p className="text-slate-600 mb-6 leading-relaxed">You have the right to access, correct, or delete your personal information. Contact us at info@sparkrightcleaning.com to exercise these rights.</p>
 
           <h2 className="text-2xl font-bold text-slate-800 mb-4">7. Contact Us</h2>
-          <p className="text-slate-600 mb-6 leading-relaxed">If you have questions about this Privacy Policy, please contact us at vianneymuhoza13@gmail.com or call 425-550-7241.</p>
+          <p className="text-slate-600 mb-6 leading-relaxed">If you have questions about this Privacy Policy, please contact us at info@sparkrightcleaning.com or call 425-550-7241.</p>
 
           <p className="text-sm text-slate-400 mt-8 italic">This is a template privacy policy. Please consult with a legal professional to ensure compliance with applicable laws and regulations for your specific business and jurisdiction.</p>
         </div>

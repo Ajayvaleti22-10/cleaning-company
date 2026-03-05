@@ -123,7 +123,7 @@ ${form.message}`,
             <div className="space-y-6">
               {[
                 { icon: Phone, label: 'Call / Text', value: '425-550-7241', href: 'tel:+14255507241' },
-                { icon: Mail, label: 'Email', value: 'vianneymuhoza13@gmail.com', href: 'mailto:vianneymuhoza13@gmail.com' },
+                { icon: Mail, label: 'Email', value: 'info@sparkrightcleaning.com', href: 'mailto:info@sparkrightcleaning.com' },
                 { icon: MapPin, label: 'Service Area', value: 'Serving Cedar Rapids & Surrounding Areas' },
               ].map((c, i) => (
                 <Card key={i} className="border-0 shadow-md">

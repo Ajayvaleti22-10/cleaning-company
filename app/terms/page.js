@@ -107,7 +107,7 @@ export default function TermsPage() {
           <div className="mt-10 rounded-xl border border-slate-200 p-5">
             <p className="text-sm text-slate-600">
               If you have questions about these Terms, contact us at{" "}
-              <strong>vianneymuhoza13@gmail.com</strong> or <strong>425-550-7241</strong>.
+              <strong>info@sparkrightcleaning.com</strong> or <strong>425-550-7241</strong>.
             </p>
           </div>
         </div>
