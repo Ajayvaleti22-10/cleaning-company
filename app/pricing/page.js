@@ -17,7 +17,7 @@ const basePrices = {
   office: { label: 'Office & Commercial', base: 169 },
   airbnb: { label: 'Airbnb & Turnover', base: 129 },
   construction: { label: 'Post-Construction', base: 200 },
-  car: { label: 'Interior Car Deep Cleaning', base: 129 },
+  car: { label: 'Interior Car Deep Cleaning', base: 100 },
 }
 
 const addOnsList = [

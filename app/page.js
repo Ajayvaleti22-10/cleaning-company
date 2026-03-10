@@ -18,7 +18,7 @@ const services = [
   { title: 'Office & Commercial', desc: 'Professional workspace cleaning for productive environments.', icon: Building2, price: 'From $149', color: 'from-blue-400 to-indigo-500' },
   { title: 'Airbnb & Turnover', desc: 'Quick turnaround cleaning between guests. Always 5-star ready.', icon: Plane, price: 'From $129', color: 'from-emerald-400 to-teal-500' },
   { title: 'Post-Construction', desc: 'Dust-free and spotless after any renovation or build project.', icon: HardHat, price: 'From $299', color: 'from-amber-400 to-orange-500' },
-  { title: 'Interior Car Deep Cleaning', desc: 'Chemical-free steam sanitizing, stain removal, odor treatment & pet hair removal.', icon: Car, price: 'From $129', color: 'from-slate-500 to-slate-700' },
+  { title: 'Interior Car Deep Cleaning', desc: 'Chemical-free steam sanitizing, stain removal, odor treatment & pet hair removal.', icon: Car, price: 'From $100', color: 'from-slate-500 to-slate-700' },
 ]
 
 const testimonials = [
@@ -37,9 +37,9 @@ const faqs = [
 ]
 
 const stats = [
-  { value: '500+', label: 'Happy Clients', icon: Heart },
-  { value: '4.9★', label: 'Average Rating', icon: Star },
-  { value: '2,000+', label: 'Cleanings Done', icon: Sparkles },
+  { value: '50+', label: 'Happy Clients', icon: Heart },
+  { value: '5★', label: 'Average Rating', icon: Star },
+  { value: '50+', label: 'Cleanings Done', icon: Sparkles },
   { value: '100%', label: 'Satisfaction Rate', icon: ThumbsUp },
 ]
 
@@ -68,7 +68,7 @@ export default function HomePage() {
             <div className="text-white">
               <div className="flex flex-wrap gap-3 mb-6">
                 <Badge className="bg-white/20 text-white border-white/30 hover:bg-white/30 text-sm px-4 py-1.5">
-                  ✨ Trusted by 500+ Happy Clients
+                  ✨ Trusted by 50+ Happy Clients
                 </Badge>
                 <Badge className="bg-green-500/90 text-white border-green-400 hover:bg-green-500 text-sm px-4 py-1.5">
                   🎉 First-Time Clients 15% Off!
@@ -356,7 +356,7 @@ export default function HomePage() {
               Ready for a <span className="text-teal-400">Spotless Space</span>?
             </h2>
             <p className="text-slate-400 text-lg mb-8">
-              Join 500+ happy clients who trust Sparkright Cleaning for their cleaning needs.
+              Join 50+ happy clients who trust Sparkright Cleaning for their cleaning needs.
               Book your first cleaning today and see the difference.
             </p>
             <div className="flex flex-wrap justify-center gap-4">

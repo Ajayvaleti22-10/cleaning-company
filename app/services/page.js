@@ -49,7 +49,7 @@ const services = [
     addOns: ['Pressure washing (+$100)', 'Air duct cleaning (+$150)'],
   },
   {
-    id: 'car', title: 'Interior Car Deep Cleaning', icon: Car, price: 'From $129',
+    id: 'car', title: 'Interior Car Deep Cleaning', icon: Car, price: 'From $100',
     color: 'from-slate-500 to-slate-700', duration: '1-2 hours',
     desc: 'Chemical-free steam sanitizing for your vehicle interior. Seats, carpets, dashboard, and odor treatment—we leave your car fresh and spotless.',
     includes: ['Steam sanitizing (chemical-free)', 'Seat & carpet stain removal', 'Dashboard & console detailing', 'Odor treatment', 'Pet hair removal'],

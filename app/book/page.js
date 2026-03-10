@@ -35,7 +35,7 @@ const services = [
   { id: 'office', title: 'Office & Commercial', icon: Building2, price: 'From $149', color: 'from-blue-400 to-indigo-500' },
   { id: 'airbnb', title: 'Airbnb & Turnover', icon: Plane, price: 'From $129', color: 'from-emerald-400 to-teal-500' },
   { id: 'construction', title: 'Post-Construction', icon: HardHat, price: 'From $299', color: 'from-amber-400 to-orange-500' },
-  { id: 'car', title: 'Interior Car Deep Cleaning', icon: Car, price: 'From $129', color: 'from-slate-500 to-slate-700' },
+  { id: 'car', title: 'Interior Car Deep Cleaning', icon: Car, price: 'From $100', color: 'from-slate-500 to-slate-700' },
 ]
 
 const addOnsList = [
